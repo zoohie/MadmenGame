@@ -1,0 +1,796 @@
+{
+    "satiety": {
+        "EatOatmeal": {
+            "title": "Eat Oatmeal",
+            "description": "This is the most tasteless food on the planet, nothing worse has happened to you in your entire life. You ate oatmeal",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatApple": {
+            "title": "Eat Apple",
+            "description": "With words from the meme 'Hey, apple!' you eat poor fruit. Not so bad! You ate apple",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatSalad": {
+            "title": "Eat Salad",
+            "description": "Mom always made you eat all the vegetables. You hate vegetables, but you love your mom. You ate salad",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatSoup": {
+            "title": "Eat Soup",
+            "description": "Soup is a infernal cauldron for vegetables. Live with this thought now. You ate soup",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatSandwich": {
+            "title": "Eat Sandwich",
+            "description": "They say that a sandwich always falls butter down. It's time to find out if this is the case? You ate sandwich",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatPizza": {
+            "title": "Eat Pizza",
+            "description": "Pizza! Oh Lord, there is nothing better in this world! You ate pizza",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatDoritos": {
+            "title": "Eat Doritos",
+            "description": "Covered in fat and crumbs, well-fed and happy! It is unhealthy, but who cares? You ate Doritos",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatDriedPizzaSides": {
+            "title": "Eat dried pizza sides",
+            "description": "How long are they here? Maybe a day, maybe an eternity. It looks like you have no other choice. You ate dried pizza sides",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatCrumbs": {
+            "title": "Eat crumbs from the keyboard",
+            "description": "Yes, you seem to be in despair. But as Mr.T said: Life's tough, but I'm tougher! You ate crumbs from the keyboard",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "EatCatFood": {
+            "title": "Eat cat food",
+            "description": "MEOW! You ate cat food",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        }
+    },
+    "energy": {
+        "takeANap": {
+            "title": "Take a nap",
+            "description": "Wake me up when september ends! You take a nap",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "goSleep": {
+            "title": "Go to sleep",
+            "description": "Sleep, eat, play games all day, repeat! You go to sleep",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkHolyWater": {
+            "title": "Drink holy water",
+            "description": "You feel the divine light shining on you! You drink holy water",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkTea": {
+            "title": "Drink tea",
+            "description": "Oh, are you from England? Yeah, sure, me too! You drink tea",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkCoffee": {
+            "title": "Drink coffee",
+            "description": "Finally, something that really gives energy! Do stupid things faster! You drink coffee",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkRedBull": {
+            "title": "Drink red bull",
+            "description": "Red Bull gives wings. Be careful, Icarus! You drink Red Bull",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkFewRedBulls": {
+            "title": "Drink few red bull",
+            "description": "And by FEW I mean everything within a radius of 30 km! You drink all the Red Bulls",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "PowerNature": {
+            "title": "Power of nature",
+            "description": "You ask for strength from mother earth. And since no one has spoken to her for a long time, she gladly shares her strength with you.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "ConnectCollider": {
+            "title": "Connect to android collider",
+            "description": "Pretty crazy idea, considering that it accelerates particles, and doesn't generate energy. But it will suit you anyway.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "BlackHole": {
+            "title": "Take the energy of the black hole in space",
+            "description": "And put it in the Dota game! Ultimate!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        }
+    },
+    "mood": {
+        "watchAnime": {
+            "title": "Watch anime",
+            "description": "Omae wa mou shindeiru, s-senpai! You watch anime",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "watchNetflix": {
+            "title": "Watch Netflix",
+            "description": "Netflix - see what's next! And then next. And next. And save me somebody! You watch Netflix all day",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "walkWithFriends": {
+            "title": "Hang with Friends",
+            "description": "You are a cyber athlete, you have no friends. Imaginary don't count! You hang with somebody for a while",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "doSomeHobby": {
+            "title": "You have some hobby?",
+            "description": "For many, many tedious and grueling hours, you ... glue a model airplane! What a party!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkJuice": {
+            "title": "Drink juice",
+            "description": "Juice is the blood of fruits. Live with this thought now. You drink juice",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkTapWater": {
+            "title": "Drink tap water",
+            "description": "I don’t know why you did it. It doesn't do anything. You drink tap water",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkBeer": {
+            "title": "Drink beer",
+            "description": "Oh, wow, here's where to start esport career! Now you don't even want to play anymore. Let's just chill, man. You drink beer",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkVodka": {
+            "title": "Drink vodka",
+            "description": "Matryoshka, balalaika! Wait, where is my bear? You drink vodka",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkRedBullVodka": {
+            "title": "Red Bull with vodka",
+            "description": "Seriously? At this time of day? Are you planning on playing games at all? Jesus! You drink red bull with vodka",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "drinkBrakeFluid": {
+            "title": "Drink brake fluid",
+            "description": "Nobody knows what will happen if you drink this. Imagine that you are Alice in Wonderland! You drink brake fluid",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        }
+    },
+    "skills": {
+        "playDota": {
+            "title": "Play Dota",
+            "description": "Oh, boy! You hook almost like Dendi! This year International is yours. Definitely.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playCSgo": {
+            "title": "Play CS go",
+            "description": "It's simple: we kill the Simple!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playFortnite": {
+            "title": "Play Fortnite",
+            "description": "Ninja is a noob! I once killed him with a bow! I swear!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playOverWatch": {
+            "title": "Play OverWatch",
+            "description": "You seem familiar. Ain’t I killed you before?",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playPubg": {
+            "title": "Play Pubg",
+            "description": "Find a pan, boy. Just. Find. A pan.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playSC2": {
+            "title": "Play StarCraft 2",
+            "description": "The Protos are so OP! So let's play for them. Hope this guy is not from Korea.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playHeartStone": {
+            "title": "Play HeartStone",
+            "description": "It's just a card game, what can be difficult here? Right? RIGHT?",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playFifa": {
+            "title": "Play Fifa",
+            "description": "Yes, yes, I know. This stupid game just doesn't want you to score! Maybe you better just play career mode only?",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playMK": {
+            "title": "Play Mortal Combat",
+            "description": "Wait, don't hit! Let me try something!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playSkyrim": {
+            "title": "Play Skyrim",
+            "description": "Dovahkiin, do you even know that this is a single player game? It is contraindicated for eSportsmen",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playAmongUs": {
+            "title": "Play Among Us",
+            "description": "You are Impostor! Discuss!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playHeroes": {
+            "title": "Play the best game in history! Almighty Heroes of Might and Magic III",
+            "description": "Astrologers proclaim the week of the old school games. Your procrastination doubles!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playSonic": {
+            "title": "Play Sonic the hedgehog",
+            "description": "Make yourself comfortable, kids. Now I will tell you a story about the true lord of the rings (at 16 bit)",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playMario": {
+            "title": "Play Mario",
+            "description": "Sorry Mario, but your princess is in another castle! She's always in another castle.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playTetris": {
+            "title": "Play Tetris",
+            "description": "Just blow the dust off this and put it back",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "playDead": {
+            "title": "Play Dead",
+            "description": "Just lie on the floor all day and think about what you're doing with your life.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        }
+    },
+    "health": {
+        "DoSomeExercise": {
+            "title": "Do Some Exercise",
+            "description": "Girls love athletic guys. Girls? Have you ever heard of them, cyber athlete?",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "takeSomeMedicine": {
+            "title": "Take some medicine",
+            "description": "Snatch a couple of pills from your older brother. Thank me later.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "goSeeDoctor": {
+            "title": "Go see a doctor",
+            "description": "But be careful: if the doctor is overly sarcastic, has a cane, and seems to have used something - you'd better go home!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "DeepBreath": {
+            "title": "Deep Breath",
+            "description": "Breath... Everything will gonna be okay... Just breath...",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "CallMama": {
+            "title": "Call Mama",
+            "description": "She will blow where it hurts, and everything will pass! You will see, this is the most powerful treatment in your arsenal.",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "JustEndure": {
+            "title": "Just endure",
+            "description": "The universe is amazed at your resilience and obstinacy! You restore some health as a sign of respect!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "HealthPotion": {
+            "title": "Health Potion",
+            "description": "All games have it, so it should be in this one too! Drink it!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "ManaPotion": {
+            "title": "Mana Potion",
+            "description": "I don’t know why it’s here, it won’t help with your health. But it won't hurt either! Drink it!",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "StimpakFallout": {
+            "title": "Stimpak from Fallout",
+            "description": "War... War is never change. But this thing will bring you back to life even in the nuclear desert",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        },
+        "Pray": {
+            "title": "Pray",
+            "description": "If nothing else remains. Pray. Maybe Lord is the only one who can improve your skills",
+            "changes": {
+                "health": 100,
+                "time": 48,
+                "energy": 100,
+                "satiety": 20,
+                "mood": 50,
+                "reaction": 0,
+                "strategy": 0,
+                "synergy": 0
+            }
+        }
+    }
+}

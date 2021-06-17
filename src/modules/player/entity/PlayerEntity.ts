@@ -1,13 +1,18 @@
 import {PlayerModel} from "../model/PlayerModel";
 import {IDefaultTickActions} from "../interfaces/IDefaultTickActions";
 import {IDefaultTaskActions} from "../interfaces/IDefaultTaskActions";
+import {Utils} from "../../utils/Utils";
 
 export class PlayerEntity {
     private playerModel: PlayerModel;
-    public defaultTickActions: IDefaultTickActions;
-    public defaultTaskActions: IDefaultTaskActions;
+    public defaultTickActions: any;
+    public defaultTaskActions: any;
 
-    public init(): void {
+    constructor() {
+        this.init();
+    }
+
+    private init(): void {
         this.playerModel = new PlayerModel();
 
         this.defaultTickActions = {

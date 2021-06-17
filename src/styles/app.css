@@ -6,6 +6,11 @@
 
 html, body {
     height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
 }
 
 [hidden] {
@@ -16,4 +21,8 @@ body {
     overflow: hidden;
     color: white;
     background-color: black;
+}
+
+canvas {
+    margin: 0 auto;
 }

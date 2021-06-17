@@ -64,6 +64,7 @@ export class PlayerModel {
     set synergyModifier(value: number) {
         this._synergyModifier = value;
     }
+
     get health(): number {
         return this._health;
     }
@@ -146,7 +147,11 @@ export class PlayerModel {
     private _strategyModifier: number;
     private _synergyModifier: number;
 
-    public init(): void {
+    constructor() {
+        this.init();
+    }
+
+    private init(): void {
         this._health = InitialValuesConfig.health;
         this._time = InitialValuesConfig.time;
         this._energy = InitialValuesConfig.energy;
@@ -165,4 +170,19 @@ export class PlayerModel {
         this._strategyModifier = InitialValuesConfig.strategyModifier;
         this._synergyModifier = InitialValuesConfig.synergyModifier;
     }
+
+    // TODO: Resolve issue
+    // private static _instance: PlayerModel = new PlayerModel();
+    //
+    // constructor() {
+    //     if( PlayerModel._instance ) {
+    //         return;
+    //     }
+    //
+    //     PlayerModel._instance = this;
+    // }
+    //
+    // public getInstance(): PlayerModel {
+    //     return this._instance;
+    // }
 }
