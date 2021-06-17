@@ -1,0 +1,22 @@
+{
+  "name": "MadmenGameProject",
+  "version": "1.0.0",
+  "description": "Madmen game project",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "npm explore general-framework -- npm run start",
+    "build": "npm explore general-framework -- npm run build",
+    "prod": "npm explore general-framework  -- npm run prod"
+  },
+  "dependencies": {
+    "general-framework": "bitbucket:leapgaming/frontendframeworknodemodule",
+    "pixi-core-framework": "bitbucket:leapgaming/frontpixicoreframeworknodemodule"
+  },
+  "devDependencies": {
+    "@types/gsap": "^1.20.2",
+    "@types/howler": "2.1.0",
+    "@types/node": "14.10.1",
+    "@types/pixi.js": "^4.8.9"
+  }
+}
